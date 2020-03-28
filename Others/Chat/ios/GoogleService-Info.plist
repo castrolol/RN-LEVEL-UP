@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>521732660951-fjs67kar5445pi11jbm3bf94bs7tb6bd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.521732660951-fjs67kar5445pi11jbm3bf94bs7tb6bd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBnl5oCEYA3ToL21wCqmGYJ9BnI70r9v40</string>
+	<key>GCM_SENDER_ID</key>
+	<string>521732660951</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.chat</string>
+	<key>PROJECT_ID</key>
+	<string>meetup-85bdf</string>
+	<key>STORAGE_BUCKET</key>
+	<string>meetup-85bdf.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:521732660951:ios:28917ecffc6a4f34a65a92</string>
+	<key>DATABASE_URL</key>
+	<string>https://meetup-85bdf.firebaseio.com</string>
+</dict>
+</plist>

@@ -13,19 +13,22 @@ em Resumo:
 
 * para projetos sem firebase: 
 ```
-npx @react-native-community/cli init AwesomeProject
+npx @react-native-community/cli init AwesomeProject --version="^0.61.0"
+
 ```
 
 * para projetos sem firebase e com typescript:  
 ```
-npx @react-native-community/cli init AwesomeTSProject --template=react-native-template-typescript
+npx @react-native-community/cli init AwesomeTSProject  --version="^0.61.0"
+--template=react-native-template-typescript
 ```
 
 * para projetos com firebase:
 (https://invertase.io/oss/react-native-firebase/quick-start/new-project)
 
 ```
-npx @react-native-community/cli init --template=@react-native-firebase/template AwesomeFirebaseProject
+npx @react-native-community/cli init --template=@react-native-firebase/template AwesomeFirebaseProject --version="^0.61.0"
+
 ```
 
 
@@ -68,3 +71,40 @@ yarn add react-native-paper react-native-vector-icons
 react-native link react-native-vector-icons
 ```
 getting started em -> https://callstack.github.io/react-native-paper/getting- started.html
+
+#### React-Native-Elements
+
+Experiencia de UI mais agnostica
+
+https://react-native-elements.github.io/react-native-elements
+
+```
+yarn add react-native-elements react-native-vector-icons
+react-native link react-native-vector-icons
+```
+getting started em -> https://callstack.github.io/react-native-paper/getting-started.html
+
+
+
+### HTTP ?!
+
+
+#### Axios ! 
+
+`yarn add axios`
+
+para requisições!!!!
+
+para mais -> https://github.com/axios/axios
+
+
+```js
+ const buscar = useCallback(async () => {
+
+    const { data } = await axios.get(`https://api.github.com/users/castrolol`)
+
+    setUser(data)
+
+  }, [username])
+
+```
