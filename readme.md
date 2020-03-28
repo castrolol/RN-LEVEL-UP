@@ -70,7 +70,7 @@ https://callstack.github.io/react-native-paper/
 yarn add react-native-paper react-native-vector-icons
 react-native link react-native-vector-icons
 ```
-getting started em -> https://callstack.github.io/react-native-paper/getting- started.html
+getting started em -> https://callstack.github.io/react-native-paper/getting-started.html
 
 #### React-Native-Elements
 
