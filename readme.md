@@ -108,3 +108,41 @@ para mais -> https://github.com/axios/axios
   }, [username])
 
 ```
+
+
+### Chatzinho!!
+
+`yarn add react-native-gifted-chat`
+
+https://gifted.chat
+https://github.com/FaridSafi/react-native-gifted-chat
+
+```js
+
+import React, { useState } from 'react';
+import { GiftedChat } from 'react-native-gifted-chat'
+import { useListVals } from 'react-firebase-hooks/database';
+import database from '@react-native-firebase/database'
+
+
+export default function App() {
+  const [messages] = useListVals(database().ref("messages"));
+ 
+  return (
+    <GiftedChat
+      messages={messages}
+      onSend={messages => {
+        database().ref("messages").push(messages[0])
+      }}
+      user={{
+        _id: 1,
+      }}
+    />
+
+  )
+}
+```
+
+
+
+
