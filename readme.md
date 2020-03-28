@@ -51,3 +51,20 @@ Reactotron
   
 ```
 
+
+
+---
+### Libs de UI
+
+
+#### React-Native-Paper
+
+Experiencia boa pra material ui 
+
+https://callstack.github.io/react-native-paper/
+
+```
+yarn add react-native-paper react-native-vector-icons
+react-native link react-native-vector-icons
+```
+getting started em -> https://callstack.github.io/react-native-paper/getting- started.html

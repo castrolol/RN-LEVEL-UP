@@ -1,0 +1,1 @@
+Para importar o mockoon.json, va em import/export no mockoon e se divirta :D    
