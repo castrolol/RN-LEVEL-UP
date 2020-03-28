@@ -146,3 +146,12 @@ export default function App() {
 
 
 
+### Mais coisinhas
+
+* Jest - Testes!
+* Detox (https://github.com/wix/Detox) - e2e
+* Awesome React Native (https://github.com/jondot/awesome-react-native) -  conjunto de mtas  coisas tops em RN
+* Awesome React NAtive UI (https://github.com/madhavanmalolan/awesome-reactnative-ui) - conjunto de coisas top em UI!
+
+
+
